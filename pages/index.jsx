@@ -1,20 +1,21 @@
-import Head from 'next/head'
-
+import Head from 'next/head';
 
 export default function Home() {
   return (
     <div>
       <Head>
-        <title>Thread Affair</title>
+        <title>Thead Affair</title>
       </Head>
 
-<header className="header">Hello</header>
+      <header className="header">
+        Hello
+        <img src="/images/logo.jpg" alt=""></img>
+        <i class="fa-solid fa-phone"></i>
+      </header>
 
-<main className="main"></main>
+      <main className="content"></main>
 
-<footer className="footer"></footer>
-
-
+      <footer className="footer"></footer>
     </div>
-  )
+  );
 }
